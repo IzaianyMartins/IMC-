@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Indice de Massa Corporal</title>
+</head>
+<body>
+    <header>
+        <h1>IMC</h1>
+    </header>
+
+
+    <section>
+        <div>
+            <p id="peso">
+                Digite o seu peso:
+                <input type="number" name="pes" id="pes"> Kg
+            </p>
+            <p id="alt">
+                Digite a sua altura:
+                <input type="number" name="altura" id="altura"> M.
+            </p>
+                <p>
+                <input type="submit" value="calcular" id="cal"
+                onclick="calcular()">
+            </p>
+        </div>
+
+
+        <div id="res">
+         <p>Seu IMC é de:</p>
+        </div>
+        
+        <div>
+        <p>
+            <img src="imc_tabela.gif" alt="tabe">
+        </p>
+        </div>
+       
+    </section>
+    <footer>
+        <p>&copy; Izaiany Martins</p>
+    </footer>
+    <script src="imc.script.js"></script>
+</body>
+</html>
